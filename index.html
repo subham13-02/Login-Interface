@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn-container">
+        <button class="btn" onclick="callme()">Log in</button>
+    </div>
+    <div class="content">
+        <h1>Click Login Button At Top Right Corner</h1>
+    </div>
+    <div id="modal" class="container">
+        <div class="inputs">
+            <h1>Log In Here</h1>
+            <label>Email Address*</label>
+            <div class="data">
+                <i class="fa-solid fa-user"></i>
+                <input type="email" placeholder="Enter valid Email Address" required>
+            </div>
+            <label>Password*</label>
+            <div class="data">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Enter valid Password" required>
+            </div>
+            <button class="btn submit"  onclick="call()">Submit</button>
+        </div>
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
